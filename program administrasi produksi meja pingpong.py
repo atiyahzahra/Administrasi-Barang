@@ -687,7 +687,7 @@ hapus = Button(app, text="Hapus Data", width=20, command=hapus_data,
 hapus.grid(row=3, sticky="w", padx=15, pady=5)
 
 #catatan
-catatan_perbulan = Button(app, text="Catatan Perbulan", width=20, command=catatan_bulanan,
+catatan_perbulan = Button(app, text="Catatan Bulanan", width=20, command=catatan_bulanan,
                           bg="#E8F9FD", fg="#0AA1DD", borderwidth=3, relief=RIDGE)
 catatan_perbulan.grid(row=3, column=2, sticky="w", padx=15, pady=5)
 
